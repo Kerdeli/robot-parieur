@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtualenv
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Tests / cache
+.pytest_cache/
+
+# Données et modèles
+data/
+*.csv
+*.xlsx
+*.json
+model_be.joblib
+models/

@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "robot-parieur"
+version = "0.1.0"
+description = "A sports betting analysis tool that predicts outcomes and evaluates betting value."
+authors = ["Your Name <youremail@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.3.0"
+xgboost = "^1.4.0"
+scikit-learn = "^0.24.0"
+scipy = "^1.7.0"
+tqdm = "^4.62.0"
+colorama = "^0.4.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
